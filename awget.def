@@ -1,0 +1,23 @@
+LIBRARY AWGET INITINSTANCE
+PROTMODE
+DATA MULTIPLE NONSHARED
+
+EXPORTS
+  AwLoadFuncs      @1
+  AwDropFuncs      @2
+  AwGetObjectPath  @3
+  AwTQCreate       @4
+  AwTQClose        @5
+  AwTQRead         @6
+  AwStartSession   @7
+  AwStopSession    @8
+  AwPOpen          @9
+  AwPRead          @10
+  AwPClose         @11
+  AwPWrite         @12
+  AwQueryURL       @13
+  AwShow           @14
+  AwPgmType        @15
+  AwPKill          @16
+  AwTimeStamp      @17
+  AwIsPM           @18
